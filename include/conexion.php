@@ -3,7 +3,7 @@
 require_once 'DB.php';
  
 $DB_host = 'localhost';
-$DB_user = 'damogar';
+$DB_user = 'events';
 $DB_pass = 'events';
 $DB_dbName = 'events';
 $DB_dbType = 'mysql';
