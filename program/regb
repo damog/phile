@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mysqladmin -f -u root -pasd9sdos drop events
+mysqladmin -u root -pasd9sdos create events
+mysqlaccess -U --spassword=asd9sdos localhost damogar events --password=events
+
+echo ".";
+
+mysql -u damogar -pevents events < ../sql/linux-events.sql
