@@ -6,12 +6,6 @@ if(basename($_SERVER[HTTP_REFERER]) == basename($_SERVER[PHP_SELF]) and $_POST) 
 ?>
 
 
-<head>
-<script type="text/javascript" src="location.js"></script>
-</head>
-<body>
-<form>
-
 <table border="0">
 <tr>
 <td>Region</td>
@@ -40,6 +34,4 @@ setRegions(this);
 
 </tr>
 </table>
-</form>
-</body>
 					  <? } ?>
