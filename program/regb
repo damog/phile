@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mysqladmin -f -u root -pasd9sdos drop events
-mysqladmin -u root -pasd9sdos create events
-mysqlaccess -U --spassword=asd9sdos localhost damogar events --password=events
+mysqladmin -f -u root -POLOPOLO drop events
+mysqladmin -u root -POLOPOLO create events
+mysqlaccess -U --spassword=POLOPOLO localhost damogar events --password=events
 
 echo ".";
 
