@@ -91,45 +91,7 @@ for($a = -12; $a < 12; $a++) {
 
 <p>
 The event will take place at:<br>
-<table border="1">
-<tr>
-<td>Region:</td>
-<td>Country:</td>
-</tr>
-
-<tr>
-<td>
-<select name="region">
-<?
-include 'conexion.php';
-$query = "SELECT id, name FROM region";
-$db->setFetchMode(DB_FETCHMODE_ASSOC);
-$result = $db->query($query);
-while($return = $result->fetchRow()) {
-  print "<option value=".$return[id].">".$return[name]."\n";
-}
-$db->disconnect();
-?>
-</select>
-</td>
-
-<td>
-<select name="country">
-<?
-include 'conexion.php';
-$query = "SELECT id, name FROM country ORDER BY name";
-$db->setFetchMode(DB_FETCHMODE_ASSOC);
-$result = $db->query($query);
-while($return = $result->fetchRow()) {
-  print "<option value=".$return[id].">".$return[name]."\n";
-}
-$db->disconnect();
-?>
-</select>
-</td>
-
-</tr>
-</table>
+<? include 'location.php'; ?>
 </p>
 
 <p>
