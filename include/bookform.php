@@ -96,7 +96,7 @@ The event will take place at:<br>
 
 <p>
 Spoken languages of event:<br>
-<table border="1">
+<table border="0">
 <tr>
 <td>First</td>
 <td>Second</td>

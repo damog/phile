@@ -12,7 +12,7 @@ if(basename($_SERVER[HTTP_REFERER]) == basename($_SERVER[PHP_SELF]) and $_POST) 
 <body>
 <form>
 
-<table border="1">
+<table border="0">
 <tr>
 <td>Region</td>
 <td>Country</td>
