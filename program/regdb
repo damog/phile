@@ -1,9 +1,9 @@
 #!/bin/bash
 
-mysqladmin -f -u root -pPOLOPOLO drop events
-mysqladmin -u root -pPOLOPOLO create events
-mysqlaccess -U --spassword=POLOPOLO localhost damogar events --password=events
+mysqladmin -f -u events -pevents drop events
+mysqladmin -u events -pevents create events
+mysqlaccess -U --spassword=events localhost events events --password=events
 
 echo ".";
 
-mysql -u damogar -pevents events < ../sql/linux-events.sql
+mysql -u events -pevents events < ../sql/linux-events.sql
