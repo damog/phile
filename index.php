@@ -11,7 +11,7 @@ $default = basename($_SERVER['PHP_SELF']);
 $dir = ".";
 $icontheme = "mini";
 $color1 = "white";
-$color2 = "lightgray";
+$color2 = "lightgrey";
 $color = $color1;
 
 if(isset($path)) {
